@@ -1,0 +1,140 @@
+/*style sheet for google home page */
+body {
+    background-color: #fff ;
+}
+/* clears the 'X' from Internet Explorer */
+input[type=search]::-ms-clear {  display: none; width : 0; height: 0; }
+input[type=search]::-ms-reveal {  display: none; width : 0; height: 0; }
+
+/* clears the 'X' from Chrome */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+.logo {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 230px;
+    cursor: pointer;
+
+}
+
+.input {
+    display: grid;
+    grid-gap: 37px;
+    grid-template-rows: 40px;
+    position: relative;
+    top: 250px;
+
+}
+.container {
+
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mic {
+    position: absolute;
+    height: 20px;
+    left: 520px;
+    top: 13px;
+}
+
+.magnify {
+    opacity: 40%;
+    height: 17px;
+    width: 20px;
+    position: absolute;
+    top: 13px;
+    left: 10px;
+}
+
+.searchbar {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: rgb(173, 173, 173);
+    border-radius: 50px;
+    border-color:lightgrey;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 555px;
+    height: 45px;
+    cursor: pointer;
+    outline: 0;
+    padding: 0px 45px 0px 40px;
+    
+}
+.searchbar:hover {
+    box-shadow: 0px 3px 9px rgb(207, 207, 207);
+
+}
+
+.button-grid {
+
+    display: grid;
+    grid-template-columns: 140px 140px;
+    grid-gap: 13px;
+    height: 35px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: black;   
+    
+}
+.button-search {
+    font-size: 15px;
+    border: 0px;
+    border-radius: 5%;
+    padding: 10px 10px 10px 10px;
+    background-color: #f2f2f2;
+    color: #5F6368;
+    cursor: pointer;
+    outline: 0px;
+}
+
+.button-search:hover {
+    border-color: lightgray;
+    border-style: solid;
+    box-shadow: 0px 1px 5px rgb(170, 170, 170);
+}
+
+.button-search:active {
+    box-shadow: 0 0.1px 1px #666;
+    transform: translateY(1px);
+}
+/*
+.button-luck {
+    font-size: 15px;
+    border: 0px;
+    border-radius: 5%;
+    padding: 10px 10px 10px 10px;
+    background-color: #f2f2f2;
+    color: #5F6368;
+    cursor: pointer;
+}
+
+.button-luck:hover {
+    border-color: lightgray;
+    border-width: 0.2px;
+    border-style: solid;
+    box-shadow: 0px 1px 1px lightgray;
+}
+*/
+
+
+
+
+
+
+
+
+
