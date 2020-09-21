@@ -1,6 +1,8 @@
 /*style sheet for google home page */
-body {
+html, body {
     background-color: #fff ;
+    margin: 0px;
+    padding: 0px;
 }
 /* clears the 'X' from Internet Explorer */
 input[type=search]::-ms-clear {  display: none; width : 0; height: 0; }
@@ -34,7 +36,6 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 .container {
 
     position: relative;
-    display: flex;
     margin-left: auto;
     margin-right: auto;
 }
@@ -56,7 +57,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 }
 
 .searchbar {
-    font-size: 20px;
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     border-style: solid;
     border-width: 0.1px;
@@ -110,6 +111,162 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 .button-search:active {
     box-shadow: 0 0.1px 1px #666;
     transform: translateY(1px);
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    
+    
+}
+ul {
+    list-style-type: none;   
+    
+}
+
+.Top {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    
+    position: relative;
+    top: 5px;
+}
+.About {
+    position: absolute;
+    left: 1%;
+    
+
+}
+.Store {
+    position: absolute;
+    left: 4%;
+    
+
+
+}
+.Gmail {
+    position: absolute;
+    left: 87%;
+    
+
+
+}
+.Images {
+    position: absolute;
+    left: 90%;
+    
+}
+
+.onHover{
+    color: black;
+    text-decoration: none;
+}
+.onHover:hover {
+    text-decoration: underline;
+    color: rgb(83, 83, 83);
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #f2f2f2;
+    min-width: 100%;
+    max-width: 100%;
+    box-shadow: 0px 3px 5px grey;
+    border-style: solid;
+    border-width: 1px;
+    border-color:lightgrey;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+
+    
+}
+
+.bottom-left {
+ 
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 600px;
+}
+.bottom-right {
+    float: right;
+    width: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-self: flex-end;
+    width: 100%;
+    margin: 0;
+    
+}
+
+@media (min-width: 500px) {
+    .bottom {
+        flex-direction: column;
+    }
+    body > footer {
+        border: 50px 0px 30px 0px;
+    }
+}
+
+.Advertising {
+    
+    color: #666;
+    font-family: Arial, sans-serif;
+
+    position: fixed;
+    left: 0.2%;
+}
+
+.Business {
+    
+    
+    color: #666;
+    font-family: Arial, sans-serif;
+
+    position: fixed;
+    left: 5%;
+}
+
+.How {
+    
+    color: #666;
+    font-family: Arial, sans-serif;
+    position: fixed;
+    left: 9%;
+
+}
+
+.Privacy {
+     
+    color: #666;
+    font-family: Arial, sans-serif;
+    padding-left: 10px;
+    
+
+}
+
+.Terms {
+      
+    color: #666;
+    font-family: Arial, sans-serif;
+    padding-left: 10px;
+    
+
+}
+
+.Settings {
+     
+    color: #666;
+    font-family: Arial, sans-serif;
+    padding-left: 10px;
+    
+
 }
 /*
 .button-luck {
